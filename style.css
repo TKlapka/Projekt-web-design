@@ -15,6 +15,18 @@ body
     font-style: italic;
 }
 
+article
+{
+    padding: 1rem;
+    background-color: #333333;
+    margin: 1rem;
+}
+
+article p
+{
+    padding-left: 2rem;
+}
+
 #nav li {
     display: inline-block;
 }
@@ -35,11 +47,11 @@ body
 #page
 {
     padding-top:5rem;
+    padding-bottom:2rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    margin-left:12rem;
-    margin-right:12rem;
-    height: 18000px;
+    margin-left:10%;
+    margin-right:10%;
     background-color: #212121;
     color: lightgrey;
 }
@@ -49,6 +61,8 @@ body
     #page
     {
     padding-top:1rem;
+    margin-left:0;
+    margin-right:0;
     }  
     
     #nav li 
