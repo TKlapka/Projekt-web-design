@@ -1,10 +1,18 @@
+body 
+{
+    background-color: black;
+}
+
 #nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #3d3d3d;
     text-align: center;
+    width: 100%;
+    position: fixed;
+    font-style: italic;
 }
 
 #nav li {
@@ -13,7 +21,8 @@
 
 #nav li a {
     display: inline-block;
-    color: white;
+    color: lightgrey;
+    font-size: 2rem;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -21,4 +30,37 @@
 
 #nav li a:hover {
     background-color: #111;
+}
+
+#page
+{
+    padding-top:5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left:12rem;
+    margin-right:12rem;
+    height: 18000px;
+    background-color: #212121;
+    color: lightgrey;
+}
+
+@media (max-width: 40rem) 
+{
+    #page
+    {
+    padding-top:1rem;
+    }  
+    
+    #nav li 
+    {
+    display: block;
+    }
+    
+    #nav li a {
+    width: 100%;
+}
+    
+    #nav {
+    position: relative;
+}
 }
