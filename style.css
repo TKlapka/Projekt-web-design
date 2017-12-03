@@ -20,7 +20,7 @@ body
     font-style: normal;
     margin-left:20%;
     margin-right:20%;
-    box-shadow: 0 3rem #0005;
+    box-shadow: 0 0.5rem #0005;
 }
 
 #nav li {
@@ -35,7 +35,7 @@ body
     padding: 14px 12px;
     text-decoration: none;
     font-weight: bold;
-    text-shadow: 0 0 6px #9b493c;
+    text-shadow: 0 0 1rem #d86654;
     -webkit-transition: background-color 0.5s; /* Safari */
     transition: background-color 0.5s;
 }
