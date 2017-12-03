@@ -9,54 +9,68 @@ body
 }
 
 #nav {
+    font-size: 0;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #000000;
+    background-color: #061733;
     text-align: center;
     width: 60%;
     position: fixed;
     font-style: normal;
     margin-left:20%;
     margin-right:20%;
-    box-shadow: 0 0.5rem #0005;
+    box-shadow: 0 0.5rem #06173355;
 }
 
 #nav li {
     display: inline-block;
+    width: 8rem;
+}
+
+#page > h1, #page > p
+{
+    text-align: center;
 }
 
 #nav li a {
-    display: inline-block;
-    color: #d86654;
+    display: block;
+    color: #d8a406;
     font-size: 1.5rem;
     text-align: center;
     padding: 14px 12px;
     text-decoration: none;
-    font-weight: bold;
-    text-shadow: 0 0 1rem #d86654;
-    -webkit-transition: background-color 0.5s; /* Safari */
-    transition: background-color 0.5s;
+    font-weight:  600;
+    background-color: #061733;
+    -webkit-transition: background-color 0.5s, color 0.5s; /* Safari */
+    transition: background-color 0.5s, color 0.5s; 
 }
 
 #nav li a:hover {
-    background-color: #563434;
+    background-color: #4a89f7;
+    color: #000;
+    text-shadow: 0 0 0rem #000;
 }
 
 article
 {
-    padding: 1rem;
-    background-color: #333333;
-    margin: 1rem;
+    padding: 2rem;
+    background-color: #061733;
+    margin: 1.5rem;
     border-style: solid;
-    border-width: 0 0 5px 0 ;
-    border-color: #363;
+    border-width: 0 0 3px 0 ;
+    border-color: #4a89f7;
 }
 
 article:nth-child(odd)
 {
-    border-color: #d86654;
+    border-color: #d8a406;
+}
+
+section > h2
+{
+    padding-left: 2rem;
 }
 
 h3
@@ -74,16 +88,6 @@ h3:nth-child(2) {
     width: 25%;
 }
 
-p
-{
-    display: inline-block;
-}
-
-article p
-{
-    padding-left: 2rem;
-}
-
 #page
 {
     padding-top:5rem;
@@ -92,7 +96,7 @@ article p
     padding-right: 2rem;
     margin-left:20%;
     margin-right:20%;
-    background-color: #222;
+    background-color: #2d3f5eEE;
     color: lightgrey;
 }
 
@@ -117,6 +121,7 @@ article p
     #nav li 
     {
         display: block;
+        width: 100%;
     }
 
     #nav li a {
