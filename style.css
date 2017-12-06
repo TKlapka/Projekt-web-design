@@ -18,7 +18,7 @@ body
     background-position: center; 
     height: 16rem;
     border-radius: 1rem;
-    
+
 }
 
 #nav {
@@ -35,6 +35,7 @@ body
     margin-left:20%;
     margin-right:20%;
     box-shadow: 0 0.5rem #06173355;
+    z-index: 1;
 }
 
 footer
@@ -51,7 +52,7 @@ footer
 
 #footer
 {
-color: white;
+    color: white;
 }
 
 #nav li {
@@ -92,6 +93,7 @@ color: white;
     position: relative;
     display: inline-block;
     float: right;
+    float: right;
     width: 2rem;
     height: 2rem;
     line-height: 2rem;
@@ -103,7 +105,12 @@ color: white;
     background-color: #d8a406;
     -webkit-transition: width 0.5s, color ease-in-out 0.2s; /* Safari */
     transition: width 0.5s, color ease-in-out 0.2s;
+}
 
+#leftToTop
+{
+    float: left;
+    width: 100%;
 }
 
 #toTop::after
@@ -128,6 +135,49 @@ color: white;
     opacity: 0;
 }
 
+.galery
+{
+    text-align: center;
+}
+
+.img {
+    position: relative;
+    display: inline-block;
+    width:  auto;
+    height: 16rem;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    padding: 1rem;
+    background-size: cover;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+}
+
+.weapons
+{
+    margin: 0 auto;
+}
+
+.weapons tr:nth-child(odd)
+{
+    background-color: #061733;
+}
+
+.weapons th
+{
+    width: 10rem;
+    height: 4rem;
+}
+
+section
+{
+    margin: 1.5rem;
+    padding: 2rem;
+    width: auto;
+    background-color: #212f45;
+}
 
 #toTop:hover
 {      
@@ -197,7 +247,7 @@ h3:nth-child(2) {
         margin-left:5%;
         margin-right:5%;
     }  
-    
+
     #nav
     {
         margin-left:5%;
