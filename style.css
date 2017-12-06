@@ -8,6 +8,19 @@ body
     background-position: center; 
 }
 
+#powerArmor
+{
+    background-color: black;
+    background-image: url("titleImage.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center; 
+    height: 16rem;
+    border-radius: 1rem;
+    
+}
+
 #nav {
     font-size: 0;
     list-style-type: none;
