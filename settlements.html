@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="cs">
+    <head>
+        <title>Projekt</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    </head>
+    <body>      
+        <div id="nav-placeholder">
+            <script>
+                $(function ()
+                {
+                    $("#nav-placeholder").load("nav.html");
+                });
+            </script>
+        </div>
+        <div id="page">
+            <main>
+                <section>
+                    <h2>3 nejlepší lokace pro osadu</h2>
+                    <table>
+                        <tr>
+                            <th>Název osady</th>
+                            <th>Popsaná lokace osady</th>
+                            <th>Poznámky</th>
+                        </tr>
+                        <tr>
+                            <th>Bunker Hill</th>
+                            <th>Severozápadní část Bostonu, blízko moře.</th>
+                            <th>Lze ji využít jako osadu pouze po určitém questu.</th>
+                        </tr>
+                        <tr>
+                            <th>The Castle</th>
+                            <th>Západojiždí cíp Bostonu u moře.</th>
+                            <th>Vyžaduje quest od Minutemanů k plnému odemčení.</th>
+                        </tr>
+                        <tr>
+                            <th>Spectacle Island</th>
+                            <th>Ostrov západně od bostonu.</th>
+                            <th>Vyžaduje boj s Mirelurk Queen k odemčení.</th>
+                        </tr>
+                    </table>
+                </section>
+                <section>
+                    <h2>3 nejhorší lokace pro osadu</h2>
+                                  <table>
+                        <tr>
+                            <th>Název osady</th>
+                            <th>Popsaná lokace osady</th>
+                            <th>Poznámky</th>
+                        </tr>
+                        <tr>
+                            <th>Jamaica plains</th>
+                            <th>Nejjižnější osada, jižně od Bostonu.</th>
+                            <th>Třeba zabít mnoho ghoulů k odemčení a málo místa pro stavbu.</th>
+                        </tr>
+                        <tr>
+                            <th>Murkwater Construction Site</th>
+                            <th>Jihozápadně od Nostonu v bažině.</th>
+                            <th>Třeba boj s Mirelurk Queen, málo místa pro stavbu.</th>
+                        </tr>
+                        <tr>
+                            <th>Coastal Cottage</th>
+                            <th>Severně od bostonu.</th>
+                            <th>Absolutně žádné místo kvůli ruinám které nejdou rozložit.</th>
+                        </tr>
+                    </table>
+                </section>
+            </main>
+            <a href="#nav-placeholder">            
+                <div id = "toTop"> 
+                    <div></div>
+                    Nahoru
+                </div>
+            </a>
+        </div>
+            <footer>
+                <div id="footer">
+                <p>footer</p>
+                </div>
+            </footer>
+    </body>
+</html>
