@@ -26,7 +26,7 @@ and open the template in the editor.
             <h1>Fallout 4 fan stránky - Studentský projekt</h1>
             <p>Tato fanouškovská stránka se zabývá hrou Fallout 4, vyvinutá vývojářským studiem Bethesda.</p>
             <div id="powerArmor">
-                
+
             </div>
             <main>
                 <section>
@@ -75,17 +75,19 @@ and open the template in the editor.
                     </article>
                 </section>
             </main>
-            <a href="#nav-placeholder">            
-                <div id = "toTop"> 
-                    <div></div>
-                    Nahoru
-                </div>
+            <a href="#nav-placeholder"> 
+                <div id = "toTop">To Top</div>
             </a>
         </div>
-            <footer>
-                <div id="footer">
-                <p>footer</p>
-                </div>
-            </footer>
+        <footer>
+            <div id="footer">
+                <script>
+                    $(function ()
+                    {
+                        $("#footer").load("foot.html");
+                    });
+                </script>
+            </div>
+        </footer>
     </body>
 </html>
