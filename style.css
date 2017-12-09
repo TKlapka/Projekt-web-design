@@ -78,7 +78,7 @@ footer
 
 #nav li {
     display: inline-block;
-    width: 8rem;
+    width: 10rem;
 }
 
 #page > h1, #page > p
@@ -133,6 +133,21 @@ a:link
 .galery
 {
     text-align: center;
+}
+
+.imgCompanion {
+    position: relative;
+    width:  auto;
+    height: 4rem;
+    float: left;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    padding: 1rem;
+    background-size: cover;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
 }
 
 .img {
@@ -228,6 +243,7 @@ article
     border-width: 0 0 3px 0 ;
     border-color: #4a89f7;
     overflow: auto;
+    word-wrap: break-word; 
 }
 
 article:nth-child(odd)
@@ -245,7 +261,7 @@ h3
     font-size: 1.2rem;
     float: left;
     font-size: 1rem;
-    width: 75%;
+    width: 100%;
     word-wrap: break-word;
 }
 
@@ -267,6 +283,11 @@ h3:nth-child(2) {
     margin-right:20%;
     background-color: #2d3f5e;
     color: lightgrey;
+}
+
+.special tr,th
+{
+    min-width: 6rem;
 }
 
 @media (max-width: 110rem) 
