@@ -26,7 +26,7 @@ and open the template in the editor.
             <main>
                 <section>
                     <h2>3 nejlepší lokace pro osadu</h2>
-                    <table>
+                    <table class="settle">
                         <tr>
                             <th>Název osady</th>
                             <th>Popsaná lokace osady</th>
@@ -51,7 +51,7 @@ and open the template in the editor.
                 </section>
                 <section>
                     <h2>3 nejhorší lokace pro osadu</h2>
-                                  <table>
+                        <table class="settle">
                         <tr>
                             <th>Název osady</th>
                             <th>Popsaná lokace osady</th>
@@ -83,9 +83,14 @@ and open the template in the editor.
             </a>
         </div>
             <footer>
-                <div id="footer">
-                <p>footer</p>
-                </div>
+             <div id="footer">
+                <script>
+                    $(function ()
+                    {
+                        $("#footer").load("foot.html");
+                    });
+                </script>
+            </div>
             </footer>
     </body>
 </html>

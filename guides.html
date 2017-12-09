@@ -23,29 +23,21 @@ and open the template in the editor.
             </script>
         </div>
         <div id="page">
-            <main>
-                <section>
-                	<h2>Návody na fallout 4</h2>
-                    <table>
-                    	<tr>
-                    		<th>Jméno návodu</th>
-                    		<th>Autor</th>
-                    	</tr>
-                    	<tr>
-                    		<th><a href="builds.html">Zábavné buildy postav</a></th>
-                    		<th>Tomáš Klapka</th>
-                    	</tr>
-                    	<tr>
-                    		<th><a href="startguide.html">Ideální začátek po opuštěný vaultu</a></th>
-                    		<th>Jakub Krejdl</th>
-                    	</tr>
-                    	<tr>
-                    		<th><a href="settlements.html">Nejlepší a oblasti pro stavbu osady</a></th>
-                    		<th>Vault Dweller</th>
-                    	</tr>
-                    </table>
-                </section>
-            </main>
+            <h2>Návody na fallout 4</h2>
+                <ul>
+                    	<li>
+                    		<p><a href="builds.html">Zábavné buildy postav</a></p>
+                    		<p>Autor: Tomáš Klapka</p>
+                    	</li>
+                    	<li>
+                    		<p><a href="startguide.html">Ideální začátek po opuštění vaultu</a></p>
+                    		<p>Autor: Jakub Krejdl</p>
+                    	</li>
+                    	<li>
+                    		<p><a href="settlements.html">Nejlepší a oblasti pro stavbu osady</a></p>
+                    		<p>Autor: Vault Dweller</p>
+                    	</li>
+                </ul>
             <a href="#nav-placeholder">            
                 <div id = "toTop"> 
                     <div></div>
@@ -54,9 +46,14 @@ and open the template in the editor.
             </a>
         </div>
             <footer>
-                <div id="footer">
-                <p>footer</p>
-                </div>
+            <div id="footer">
+                <script>
+                    $(function ()
+                    {
+                        $("#footer").load("foot.html");
+                    });
+                </script>
+            </div>
             </footer>
     </body>
 </html>

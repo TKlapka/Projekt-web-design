@@ -32,8 +32,13 @@ and open the template in the editor.
             </a>
         </div>
         <footer>
-            <div id="footer">
-                <p>footer</p>
+             <div id="footer">
+                <script>
+                    $(function ()
+                    {
+                        $("#footer").load("foot.html");
+                    });
+                </script>
             </div>
         </footer>
     </body>
