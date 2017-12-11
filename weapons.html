@@ -198,12 +198,17 @@ and open the template in the editor.
             </section>
             </main>
             <a href="#nav-placeholder">            
-                <div id = "toTop">To Top</div>
+                <div id = "toTop">Nahoru</div>
             </a>
         </div>
         <footer>
             <div id="footer">
-                <p>footer</p>
+               <script>
+                    $(function ()
+                    {
+                        $("#footer").load("foot.html");
+                    });
+                </script>
             </div>
         </footer>
     </body>
