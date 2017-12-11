@@ -271,6 +271,16 @@ article h3
     word-wrap: break-word;
 }
 
+article img
+{
+    float: left;
+}
+
+.fullLine
+{
+    width: 100%;
+}
+
 article h3:nth-child(2) {
     float: right;
     text-align: right;
