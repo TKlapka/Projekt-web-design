@@ -4,61 +4,91 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html>
+<html lang="cs">
     <head>
         <title>Projekt</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="reset.css">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
-    <body>
-        <ul id="nav">
-            <li><a href="default.asp">Home</a></li>
-            <li><a href="default.asp">Home</a></li>
-            <li><a href="default.asp">Home</a></li>
-            <li><a href="default.asp">Home</a></li>
-            <li><a href="default.asp">Home</a></li>
-        </ul>
-        <h1>Fallout 4 fan stránky - Studentský projekt</h1>
-        <p>Tato fanouškovská stránka se zabývá hrou Fallout 4, vyvinutá vývojářským studiem Bethesda.</p>
-    	<main>
-    		 <section>
-    		 	<article>
-    		 		<h2>Creation club aka placené módy v2.0 . . . 29.8.2017</h2>
-    		 		<p>Bethesda se nepoučila a znovu tu máme placené módy pro Fallout 4 a Skyrim special Edition, tentokráte horší než kdy dřív. Steam vás nutí stahovat všechny soubory aniž by jste cokoliv z toho kupovali či chtěli, a zaplacením se Vám to pouze odemkne. <br> Toto se děje nezávisle na tom zda stahovat tyto přídavky chcete či ne, a zabírá vám to zbytečně místo.</p>
-    		 	</article>
-    		 	<article>
-    		 		<h2>Nuka World, poslední DLC pro Fallout 4 je ke stažení . . . 30.10.2016</h2>
-    		 		<p>Poslední DLC které Fallout 4 dostane je konečně ke stažení, co bude dále s Fallout 4? Stále tu máme módy, tedy pokud se bethesda nerozhodne znovu zavést placené módy.</p>
-    		 	</article>
-    		 	<article>
-    		 		<h2>Oznámeno poslední velké příběhové DLC - Nuka World . . . 24.8.2016</h2>
-    		 		<p>Bethesda oznámila poslední příběhové DLC které se Falloutu 4 dostane, tentokráte se bude oehrávat s zábavním parku Nuka World, kde se budete moci stát vůdcem gangu banditů a dobýt Commonwealth.</p>
-    		 	</article>
-    		 	<article>
-    		 		<h2>První velké DLC Far Harbor je oficiálně venku . . . 19.5.2016</h2>
-    		 		<p>Lorem Ipsum here I come, Lorem Ipsum be my wife, Lorem Ipsum end my life.</p>
-    		 	</article>
-    		 	<article>
-    		 		<h2>Oznámeno první velké příběhové DLC - Far Harbor . . . 4.5.2016</h2>
-    		 		<p>Bylo oznámeno první velké rozšíření ke hře Fallout 4, dostaneme se na pustý ostrov zastřený radiaktivní mlhou. Datum vydání tohoto DLC by mělo být 19. května 2016.</p>
-    		 	</article>
-    		 	<article>
-    		 		<h2>První recenze Fallout 4 . . . 26.11.2015</h2>
-    		 		<p>Tato hra je všechno, co potřebujete na dlouhé páteční večery... tedy krom kebabu a sklenky kofoly na stole. <br>
-					Počáteční procitnutí coby otec rodiny se může jevit docela matoucně, ovšem způsob, kterým se dostaneme do daleké post-apo budoucnosti, je atmosféricky a poutavě zpracován. <br>
-					Od toho se neodlišuje ani samotná hra. Ačkoliv jsou některé mise repetetivní (dívám se na tebe, Prestone,) většina z nich má vlastní příběh, překypují atmosférou a projektily letícími vzduchem.</p>
-    		 	</article>
-    		 	<article>
-    		 		<h2>Fallout 4 je oficiálně vypuštěn na trh . . . 15.11.2015</h2>
-    		 		<p>Konečně je to tady, dočkali jsme se! Fallout byl o půlnoci vypuštěn. Taky se již nemůžute dočkat toho nádherného pocitu až vám radiaktivní větříček pročeše vaše vlasy a gamebreaking bugy vám vyrazí zuby?</p>
-    		 	</article>
-    		 	<article>
-    		 		<h2>Fallout 4 bylo konečně oznámeno na E3 2015 Bethesda konferenci . . . 15.6.2015</h2>
-    		 		<p>Todd Howard, bůh mu požehnej jeho sladké lži, konečně oznámil vývoj dlouho očekávaného pokračování Fallout série.</p>
-    		 	</article>
-    		 </section>
-    	</main>
+    <body>      
+        <div id="nav-placeholder">
+            <script>
+                $(function ()
+                {
+                    $("#nav-placeholder").load("nav.html");
+                });
+            </script>
+        </div>
+        <div id="page">
+            <h1>Fallout 4 fan stránky - Studentský projekt</h1>
+            <p>Tato fanouškovská stránka se zabývá hrou Fallout 4, vyvinutá vývojářským studiem Bethesda.</p>
+            <p><a href="https://github.com/BlueBananasaurus/Projekt-web-design">GitHub</a></p>
+            <div id="powerArmor">
+
+            </div>
+            <main>
+                <section>
+                    <h2>Novinky</h2>
+                    <article>
+                        <h3>Creation club aka placené módy v2.0</h3>
+                        <h3>29.8.2017</h3>
+                        <p>Bethesda se nepoučila a znovu tu máme placené módy pro Fallout 4 a Skyrim special Edition, tentokráte horší než kdy dřív. Steam vás nutí stahovat všechny soubory aniž by jste cokoliv z toho kupovali či chtěli, a zaplacením se Vám to pouze odemkne. <br> Toto se děje nezávisle na tom zda stahovat tyto přídavky chcete či ne, a zabírá vám to zbytečně místo.</p>
+                    </article>
+                    <article>
+                        <h3>Nuka World, poslední DLC pro Fallout 4 je ke stažení</h3>
+                        <h3>30.10.2016</h3>
+                        <p>Poslední DLC které Fallout 4 dostane je konečně ke stažení, co bude dále s Fallout 4? Stále tu máme módy, tedy pokud se bethesda nerozhodne znovu zavést placené módy.</p>
+                    </article>
+                    <article>
+                        <h3>Oznámeno poslední velké příběhové DLC - Nuka World</h3>
+                        <h3>24.8.2016</h3>
+                        <p>Bethesda oznámila poslední příběhové DLC které se Falloutu 4 dostane, tentokráte se bude oehrávat s zábavním parku Nuka World, kde se budete moci stát vůdcem gangu banditů a dobýt Commonwealth.</p>
+                    </article>
+                    <article>
+                        <h3>První velké DLC Far Harbor je oficiálně venku</h3>
+                        <h3>19.5.2016</h3>
+                        <p>První velké příběhové DLC je oficiálně připraveno pro naše průzkumnické choutky. Zavede nás na ostrov plný post-apokalyptických námořníků, smrtící radioaktivní mlhy a zmutovaných korýšů, kteří se hodlají pomstit za ty roky, co jsme si na nich pochutnávali.</p>
+                    </article>
+                    <article>
+                        <h3>Oznámeno první velké příběhové DLC - Far Harbor</h3>
+                        <h3>4.5.2016</h3>
+                        <p>Bylo oznámeno první velké rozšíření ke hře Fallout 4, dostaneme se na pustý ostrov zastřený radiaktivní mlhou. Datum vydání tohoto DLC by mělo být 19. května 2016.</p>
+                    </article>
+                    <article>
+                        <h3>První recenze Fallout 4</h3>
+                        <h3>26.11.2015</h3>
+                        <p>Tato hra je všechno, co potřebujete na dlouhé páteční večery... tedy krom kebabu a sklenky kofoly na stole. <br>
+                            Počáteční procitnutí coby otec rodiny se může jevit docela matoucně, ovšem způsob, kterým se dostaneme do daleké post-apo budoucnosti, je atmosféricky a poutavě zpracován. <br>
+                            Od toho se neodlišuje ani samotná hra. Ačkoliv jsou některé mise repetetivní (dívám se na tebe, Prestone,) většina z nich má vlastní příběh, překypují atmosférou a projektily letícími vzduchem.</p>
+                    </article>
+                    <article>
+                        <h3>Fallout 4 je oficiálně vypuštěn na trh</h3>
+                        <h3>15.11.2015</h3>
+                        <p>Konečně je to tady, dočkali jsme se! Fallout byl o půlnoci vypuštěn. Taky se již nemůžute dočkat toho nádherného pocitu až vám radiaktivní větříček pročeše vaše vlasy a gamebreaking bugy vám vyrazí zuby?</p>
+                    </article>
+                    <article>
+                        <h3>Fallout 4 bylo konečně oznámeno na E3 2015 Bethesda konferenci</h3>
+                        <h3>15.6.2015</h3>
+                        <p>Todd Howard, bůh mu požehnej jeho sladkým lžím, konečně oznámil vývoj dlouho očekávaného pokračování Fallout série.</p>
+                    </article>
+                </section>
+            </main>
+            <a href="#nav-placeholder"> 
+                <div id = "toTop">Nahoru</div>
+            </a>
+        </div>
+        <footer>
+            <div id="footer">
+                <script>
+                    $(function ()
+                    {
+                        $("#footer").load("foot.html");
+                    });
+                </script>
+            </div>
+        </footer>
     </body>
 </html>

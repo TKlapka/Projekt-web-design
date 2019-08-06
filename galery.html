@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="cs">
+    <head>
+        <title>Galerie</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    </head>
+    <body>      
+        <div id="nav-placeholder">
+            <script>
+                $(function ()
+                {
+                    $("#nav-placeholder").load("nav.html");
+                });
+            </script>
+        </div>
+        <div id="page">
+            <div class="galery">
+                <a href="titleImage.jpg"><img class="img" src="titleImage.jpg" alt="Titulní obrázek"></a>
+                <a href="2.png"><img class="img" src="2.png" alt="Pěkný obrázek"></a>
+                <a href="3.jpg"><img class="img" src="3.jpg" alt="Estetika sama"></a>
+                <a href="4.jpg"><img class="img" src="4.jpg" alt="Magnifique"></a>
+            </div>
+            <a href="#nav-placeholder"> 
+                <div id = "toTop">Nahoru</div>
+            </a>
+        </div>
+        <footer>
+            <div id="footer">
+                <script>
+                    $(function ()
+                    {
+                        $("#footer").load("foot.html");
+                    });
+                </script>
+            </div>
+        </footer>
+    </body>
+</html>

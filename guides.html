@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="cs">
+    <head>
+        <title>Projekt</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    </head>
+    <body>      
+        <div id="nav-placeholder">
+            <script>
+                $(function ()
+                {
+                    $("#nav-placeholder").load("nav.html");
+                });
+            </script>
+        </div>
+        <div id="page">
+            <h2>Návody na fallout 4</h2>
+                <ul>
+                    	<li>
+                    		<p><a href="builds.html">Zábavné buildy postav</a></p>
+                    		<p>Autor: Tomáš Klapka</p>
+                    	</li>
+                    	<li>
+                    		<p><a href="startguide.html">Ideální začátek po opuštění vaultu</a></p>
+                    		<p>Autor: Jakub Krejdl</p>
+                    	</li>
+                    	<li>
+                    		<p><a href="settlements.html">Nejlepší a oblasti pro stavbu osady</a></p>
+                    		<p>Autor: Vault Dweller</p>
+                    	</li>
+                </ul>
+            <a href="#nav-placeholder">            
+                <div id = "toTop"> 
+                    Nahoru
+                </div>
+            </a>
+        </div>
+            <footer>
+            <div id="footer">
+                <script>
+                    $(function ()
+                    {
+                        $("#footer").load("foot.html");
+                    });
+                </script>
+            </div>
+            </footer>
+    </body>
+</html>
